@@ -1,10 +1,5 @@
 ### Order Total Metrics
 
-**Branch name:** metrics-prework
-
-**RDE workfows:**
-* `rde wflow run metrics-prework-emittingmetrics-orderprocessortest`
-
 Expected time required: 10 min
 
 You are building an order processing service for your online store.  You would like to track the total amount for each

@@ -1,5 +1,3 @@
-package com.amazon.ata.metrics.prework.emittingmetrics;
-
 import com.amazonaws.services.cloudwatch.model.StandardUnit;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

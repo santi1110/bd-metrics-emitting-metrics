@@ -1,5 +1,3 @@
-package com.amazon.ata.metrics.prework.emittingmetrics;
-
 public class Order {
 
     private String orderId;
