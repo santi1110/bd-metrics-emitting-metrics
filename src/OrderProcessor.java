@@ -1,3 +1,5 @@
+import com.amazonaws.services.cloudwatch.model.StandardUnit;
+
 /**
  * Order Processor class.
  */
@@ -21,6 +23,8 @@ public class OrderProcessor {
      */
     public void processOrder(Order newOrder) {
         try {
+            double totalPrice = newOrder.getTotalPrice();
+            metricsPublisher.addMetric("ORDER_TOTALS", totalPrice, StandardUnit.None);
             // Order processing code omitted
 
         } catch (Exception e) {
